@@ -17,7 +17,7 @@ public class TipoUsuarioModel {
     private integer idtipousuario;
 
     @Column(nullable = false, length = 50, unique = true)
-    private String nombre_tipo_usuario;
+    private String nombre_tipo_user;
     
     //@OneToMany(mappedBy = "tipousuario", cascade = CascadeType)
     //private List<Roles> roles;
